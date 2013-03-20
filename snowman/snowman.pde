@@ -4,12 +4,14 @@ void setup(){
   
   
  }
+ 
+ int y=400;
 
 void draw(){
   noStroke();
-  ellipse (250, 270, 60, 60);
-  ellipse ( 250, 330, 80, 80);
- ellipse (250,400, 100, 100);
+  ellipse (250, y-130, 60, 60);
+  ellipse ( 250, y-70, 80, 80);
+ ellipse (250,y, 100, 100);
   
   
   
